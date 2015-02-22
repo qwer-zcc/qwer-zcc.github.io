@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: Qwer_zcc's blog
 tagline: Supporting tagline
 ---
 {% include JB/setup %}

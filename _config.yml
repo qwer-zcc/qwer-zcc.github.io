@@ -11,9 +11,9 @@ highlighter: pygments
 title : Jekyll Bootstrap
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : ChengChi Zhou
+  email : qwer_zcc@126.com
+  github : qwer-zcc
   twitter : username
   feedburner : feedname
 
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : qwerzcc
     livefyre :
       site_id : 123
     intensedebate :
