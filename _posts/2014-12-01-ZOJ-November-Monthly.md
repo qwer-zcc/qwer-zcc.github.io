@@ -1,6 +1,6 @@
 ---
 layout : post
-category : ZOJ November Monthly
+category : OI
 title : "ZOJ November Monthly"
 tags : [ZOJ]
 ---

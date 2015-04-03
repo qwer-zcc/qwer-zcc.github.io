@@ -1,6 +1,6 @@
 ---
 layout : post
-category : Codechef
+category : OI
 title : "Codechef December Challenge"
 tags : [Codechef]
 ---
