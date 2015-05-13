@@ -1,3 +1,10 @@
+---
+layout : post
+category : Life
+title : "CTSC and APIO"
+tags : [OI]
+---
+
 ##CTSC
 第一次翘掉了考试。。
 
