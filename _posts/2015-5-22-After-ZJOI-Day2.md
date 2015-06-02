@@ -1,7 +1,7 @@
 ---
 layout : post
 category : Life
-title : "ZJOI"
+title : "After ZJOI Day2"
 tags : [OI]
 ---
 真是刺激。。。
