@@ -13,11 +13,9 @@ tagline: Supporting tagline
 				<p>{{ post.excerpt }} </p>
 			</article>
 			<a href="{{ BASE_PATH }}{{ post.url }}" class="more"><i class=icon-link"></i></a>
-			<div class="info">
-				<span>
-					{{ post.date | data_to_string }}
-				</span>
-			</div>
+			<span>
+				{{ post.date | data_to_string }}
+			</span> &raquo;
 		</div>
 	{% endfor %}
 </ul>
