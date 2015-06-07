@@ -4,9 +4,9 @@ category : Life
 title : "CTSC and APIO"
 tags : [OI]
 ---
+第一次翘掉了考试。。
 
 ##CTSC
-第一次翘掉了考试。。
 
 HNOI被吊打，直接被__Shi倍杀，只能说自己弱了。
 
