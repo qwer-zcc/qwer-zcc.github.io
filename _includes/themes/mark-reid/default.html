@@ -44,15 +44,6 @@
     </ul>
   </div>
 
-	<div class="aside-item">
-		<h4 class="title">Recent Posts</h4>
-		<ul class="list">
-			{% for rpost in site.posts limit:6 %}
-			<li><a href="{{site.url}}{{rpost.url}}" title="{{rpost.title}}" rel={bookmark">{{ rpost.title }} </a></li>
-			{% endfor %}
-		</ul>
-	</div>
-
   {{ content }}
   
   <div id="footer">
