@@ -232,7 +232,8 @@ ul.compact li a {
 	display: inline;
 }
 #header ul li a:hover {
-	color: blue;
+	/*color: blue;*/
+	color: red;
 	border-bottom: 2px solid blue;
 }
 #header .byline {
