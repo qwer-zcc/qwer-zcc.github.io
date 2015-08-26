@@ -5,14 +5,8 @@ header: Qwer_zcc's projects
 group: navigation
 ---
 {% include JB/setup %}
-<ul class="projects">
-	{% for project in site.projects %}
-	<li>
-	<font size="4">
-		<a href="{{ BASE_PATH }}{{ post.url }}">{{ project.title }}
-		</a>
-	</font>
-	</li>
-	{% endfor %}
-</ul>
 
+<ul>
+{% assign projects_list = site.posts %}
+{% include JB/projects_list %}
+</ul>
