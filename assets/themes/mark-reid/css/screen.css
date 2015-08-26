@@ -219,10 +219,10 @@ ul.compact li a {
 	top: 0;
 	right: 0;
 	font-size: 100%;
-	line-height: 1.6em;
+	line-height: 2.6em;
 	display: block;
 	margin: 0;
-	width: 50%;
+	width: 60%;
 	text-align: right;
 }
 #header ul li { display: inline; }
