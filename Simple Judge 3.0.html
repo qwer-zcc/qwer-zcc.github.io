@@ -1,0 +1,180 @@
+---
+layout: page
+title: Pages 
+header: Pages
+group: project
+---
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://shizhouxing.github.io/Simple_Judge/ -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Simple Judge 3.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Simple Judge 3.0_files/normalize.css" media="screen">
+    <link href="./Simple Judge 3.0_files/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./Simple Judge 3.0_files/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="./Simple Judge 3.0_files/github-light.css" media="screen">
+  <script type="text/javascript" async="" src="./Simple Judge 3.0_files/embed.js"></script></head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Simple Judge 3.0</h1>
+      <h2 class="project-tagline"></h2>
+    </section>
+
+    <section class="main-content">
+    
+<p>
+	预览版暂时仅支持64位Ubuntu系统。未来可能支持32位Ubuntu系统和Mac OS X。</p>
+<!--more-->
+<h1>
+	<strong>特点</strong></h1>
+<p>
+	Simple Judge是一个本地OI试题评测器。其对于多数情况，都仅需要选择源文件，即可自动配置数据，一键完成评测；同时也支持修改编译、运行命令，评测方式，当然也可以手动配置数据。Simple Judge程序轻便，在不同题目间切换方便，尤其适合个人在练习中使用。</p>
+<h1>
+	<strong>使用简介</strong></h1>
+<h2>
+	<strong>安装</strong></h2>
+<p>
+	运行目录下的install程序进行初始化。</p>
+<p>
+	<img alt="" src="./Simple Judge 3.0_files/install1.png" style="width: 106px; height: 101px;"></p>
+<p>
+	<img alt="" src="./Simple Judge 3.0_files/install2.png"></p>
+<h2>
+	<strong>启动</strong></h2>
+<p>
+	可以在dash中单击启动，可以在文件夹下双击启动，还可以终端运行。</p>
+<p>
+	<img alt="" src="./Simple Judge 3.0_files/start.png"></p>
+<h2>
+	<strong>打开文件</strong></h2>
+<p>
+	使用CTRL+O或点击Source File文本框右侧的按钮，选择需要评测的源文件。</p>
+<p>
+	<img alt="" src="./Simple Judge 3.0_files/open.png"></p>
+<h2>
+	<strong>配置数据</strong></h2>
+<p>
+	相关的输入和输出文件、SPJ可执行文件需要放置在源文件所在目录下的data/目录中。</p>
+<p>
+	通常情况下，不需要再手动配置数据。</p>
+<p>
+	<img alt="" src="./Simple Judge 3.0_files/configuring_test_cases.png"><br>
+	如图所示，程序会自动配置对应的输入输出文件和分值。</p>
+<p>
+	若遇特殊情况，自动配置数据失败，或对自动配置的结果不满意，可以使用F6或点击按钮进入Test cases Tab，进行手动配置，如下图所示。</p>
+<p>
+	<img alt="" src="./Simple Judge 3.0_files/test_cases.png"></p>
+<p>
+	三个文本框均可手动任意修改，但须保证合法性，即输入输出文件必须对应，各测试点总分为100分等。</p>
+<p>
+	选框，可以锁定数据配置。那么在下一次打开新源文件时，程序将不会再自动配置数据。</p>
+<h2>
+	<strong>评测选项</strong></h2>
+	
+<p>
+	时限、内存，编译与运行选项、比对方式均可修改。</p>
+<p>
+	编译和运行选项可以在Menu-&gt;Settings-&gt;Preference中修改：</p>
+<p>
+	<img alt="" src="./Simple Judge 3.0_files/preference.png"></p>
+<p>
+	比对方式若选择SPJ，则程序会调用可执行文件data/SPJ。</p>
+<p>
+	SPJ参数配置和lemon相同：</p>
+<p>
+	argv[1]: 输入文件</p>
+<p>
+	argv[2]: 选手输出</p>
+<p>
+	argv[3]: 标准输出</p>
+<p>
+	argv[4]: 当前测试点满分</p>
+<p>
+	argv[5]: 当前测试点得分</p>
+<p>
+	argv[6]: 详细评测信息</p>
+<h2>
+	<strong>评测</strong></h2>
+<div>
+	点击Judge按钮或使用快捷键F9开始评测。</div>
+<div>
+	<img alt="" src="./Simple Judge 3.0_files/running1.png"></div>
+<div>
+	<img alt="" src="./Simple Judge 3.0_files/running.png"></div>
+<h2>
+	<strong>查看详细结果</strong></h2>
+<div>
+	点击按钮或使用F7切换到Report Tab即可查看，如图所示：</div>
+	
+	
+<div>
+	<img alt="" src="./Simple Judge 3.0_files/report.png"></div>	
+		
+<h2>
+	<strong>快捷键列表</strong></h2>
+<div>
+	
+	<br>F5：切换到Home Tab。<br>
+	<br>F6：切换到Test case Tab。<br>
+	<br>F7：切换到Report Tab。<br>
+	<br>F9：开始评测。<br>
+	<br>CTRL+O：打开源文件。<br>
+	
+	
+</div>		
+		
+		
+<h1>
+	<strong>下载</strong></h1>
+
+<h2>
+	<strong>预览版</strong></h2>
+	
+<div>
+
+<p><a href="http://shizhouxing.github.io/Simple_Judge/Downloads/Simple_Judge-3.0-preview-ubuntu-x64-build0809.zip">Simple_Judge-3.0-preview-ubuntu-x64-build0809 (on Github)</a></p>
+<p><a href="http://pan.baidu.com/s/1ntKhJWd">Simple_Judge-3.0-preview-ubuntu-x64-build0809 (on pan.baidu.com)</a></p>
+
+
+</div>
+	
+	<p></p>
+
+  <div id="comments_wrap">
+      <div id="disqus_thread"><iframe id="dsq-1" data-disqus-uid="1" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./Simple Judge 3.0_files/saved_resource.html" style="width: 100% !important; border: none !important; overflow: hidden !important; height: 537px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'Shizhouxing'; // required: replace example with your forum shortname
+    var disqus_identifier = 'Simple_Judge_3.0';
+    //var disqus_developer = 1;
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the &lt;a href="http://disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+
+
+  </div>
+  
+  
+  
+
+
+      <footer class="site-footer">
+
+        <span class="site-footer-credits">Powered by <b><a href="mailto:shizhouxing@126.com">Zhouxing Shi</a></b> with help from <a href="https://pages.github.com/">Github Pages</a>.
+        </span>
+        &nbsp;&nbsp;&nbsp;<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1256007887'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/stat.php%3Fid%3D1256007887%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_1256007887"><a href="http://www.cnzz.com/stat/website.php?web_id=1256007887" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./Simple Judge 3.0_files/pic.gif"></a></span><script src="./Simple Judge 3.0_files/stat.php" type="text/javascript"></script><script src="./Simple Judge 3.0_files/core.php" charset="utf-8" type="text/javascript"></script>
+      </footer>
+
+    </section>
+
+  
+  
+
+
+</body><div></div></html>
