@@ -1,8 +1,6 @@
 ---
 layout : post
-category : Life
 title : "test"
-tags : [NOIP]
 group : project
 ---
 test
