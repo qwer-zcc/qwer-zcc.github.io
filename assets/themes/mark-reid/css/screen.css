@@ -219,7 +219,7 @@ ul.compact li a {
 	top: 0;
 	right: 0;
 	font-size: 100%;
-	line-height: 2.6em;
+	line-height: 1.6em;
 	display: block;
 	margin: 0;
 	width: 50%;
@@ -227,7 +227,8 @@ ul.compact li a {
 }
 #header ul li { display: inline; }
 #header ul li a {
-	padding: 0.4em 0.3em 0 0.3em;
+	padding: auto;
+	/*padding: 0.4em 0.3em 0 0.3em;*/
 	display: inline;
 }
 #header ul li a:hover {
