@@ -1,12 +1,14 @@
 ---
 layout: page
-title: Projects
-header: Qwer_zcc's projects
+title: Pages 
+header: Pages
 group: navigation
 ---
 {% include JB/setup %}
 
 <ul>
-{% assign projects_list = site.posts %}
-{% include JB/projects_list %}
+{% assign pages_list = site.pages %}
+{% assign group = 'project' %}
+{% include JB/pages_list %}
 </ul>
+
